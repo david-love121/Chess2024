@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="main-menu-container" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:Label text="Chess!" name="title" class="title"/>
+        <ui:Button text="Play" name="play-button" class="menu-button"/>
+        <ui:Button text="Quit" name="quit-button" class="menu-button"/>
+    </ui:VisualElement>
+</ui:UXML>
